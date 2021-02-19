@@ -471,10 +471,8 @@ footer {
   margin-bottom: 16px;
   transition: all 0.4s ease-in-out;
 }
-#contact .form-control #message {
 
-  size: 100;
-}
+
 #contact .form-control:focus {
   border-bottom-color: #999;
 }
