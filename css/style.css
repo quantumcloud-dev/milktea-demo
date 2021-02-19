@@ -57,7 +57,8 @@ a {
 }
 
 #overview,
-#register {
+#register,
+#contactUs {
   padding-top: 14rem;
   padding-bottom: 14rem;
 }
@@ -81,7 +82,8 @@ footer {
 
 #overview h3,
 #detail h3, #video h3,
-#register h3,
+#register,
+#contactUs h3,
 #venue h3, #callInfo,
 #contact h3 {
     padding-bottom: 12px;
@@ -393,9 +395,9 @@ footer {
 
 
 /*---------------------------------------
-    Regsiter section              
+    Contact section              
 -----------------------------------------*/
-#register {
+#contactUs {
     background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -403,7 +405,7 @@ footer {
     color: #ffffff;
 }
 
-#register .form-control {
+#contactUs .form-control {
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 0px;
@@ -411,11 +413,11 @@ footer {
   margin-bottom: 16px;
 }
 
-#register input {
+#contactUs input {
   height: 45px;
 }
 
-#register input[type="submit"] {
+#contactUs input[type="submit"] {
   background: #5CDB95;
   border-radius: 100px;
   border: none;
@@ -426,7 +428,7 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 
-#register input[type="submit"]:hover {
+#contactUs input[type="submit"]:hover {
   background: #ffffff;
   color: #222;
 }
@@ -469,7 +471,10 @@ footer {
   margin-bottom: 16px;
   transition: all 0.4s ease-in-out;
 }
+#contact .form-control #message {
 
+  size: 100;
+}
 #contact .form-control:focus {
   border-bottom-color: #999;
 }
