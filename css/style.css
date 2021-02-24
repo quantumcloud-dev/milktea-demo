@@ -56,7 +56,7 @@ a {
   margin-bottom: 32px;
 }
 
-#overview,
+#aboutUs,
 #register,
 #contactUs {
   padding-top: 14rem;
@@ -64,7 +64,7 @@ a {
 }
 
 #detail, #video,
-#speakers,
+#brgyOfficials,
 #sk, #callInfo,
 #sponsors, 
 #contact, footer {
@@ -73,14 +73,14 @@ a {
 }
 
 #detail, #callInfo,
-#speakers, 
+#brgyOfficials, 
 #sk,
 #sponsors,
 footer {
   text-align: center;
 }
 
-#overview h3,
+#aboutUs h3,
 #detail h3, #video h3,
 #register,
 #contactUs h3,
@@ -288,14 +288,16 @@ footer {
 
 
 /*---------------------------------------
-   Overview  section              
+   About Us  section              
 -----------------------------------------*/
-#overview img {
+#aboutUs img {
   position: relative;
   padding-bottom: 32px;
 }
 
-
+#aboutUS h5{
+  font-size: 56px;
+}
 
 /*---------------------------------------
     Detail section              
@@ -322,31 +324,31 @@ footer {
 
 
 /*---------------------------------------
-   Speakers section              
+   brgyOfficials section              
 -----------------------------------------*/
-#speakers {
+#brgyOfficials {
     background: #f9f9f9;
 }
 
-#speakers h3 {
+#brgyOfficials h3 {
     font-size: 18px;
     margin-bottom: 0px;
     color: white;
 }
 
-#speakers h6 {
+#brgyOfficials h6 {
   color: #666;
   margin-top: 4px;
   color: white;
 }
 
-#speakers img {
+#brgyOfficials img {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
 
-#speakers .col-md-3 {
+#brgyOfficials .col-md-3 {
     display: block;
     width: 100%;
     padding-top: 30px;
@@ -354,7 +356,7 @@ footer {
     margin-bottom: 22px;
 }
 
-#speakers .speakers-wrapper {
+#brgyOfficials .brgyOfficials-wrapper {
     background: #05386B;
     padding-bottom: 22px;
 }
@@ -599,7 +601,7 @@ footer {
     line-height: 20px;
   }
 
-  #overview img,
+  #aboutUs img,
   #detail .col-md-4,
   #register form {
     padding-top: 32px;
