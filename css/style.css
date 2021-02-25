@@ -66,7 +66,7 @@ a {
 #detail, #video,
 #brgyOfficials,
 #sk, #callInfo,
-#governments, 
+#sponsors, 
 #contact, footer {
     padding-top: 10rem;
     padding-bottom: 10rem;
@@ -75,7 +75,7 @@ a {
 #detail, #callInfo,
 #brgyOfficials, 
 #sk,
-#governments,
+#sponsors,
 footer {
   text-align: center;
 }
@@ -440,9 +440,9 @@ footer {
 
 
 /*---------------------------------------
-   governments section              
+   sponsors section              
 -----------------------------------------*/
-#governments img {
+#sponsors img {
   margin-top: 18px;
 }
 
@@ -615,7 +615,7 @@ footer {
   }
 
  
-  #governments img {
+  #sponsors img {
     padding-top: 22px;
   }
 
